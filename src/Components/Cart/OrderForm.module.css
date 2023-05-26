@@ -1,0 +1,50 @@
+/** @format */
+
+.form-group {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-group > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.form-group > div > label {
+  width: 110px;
+}
+.form-group > div input {
+  border: none;
+  border-bottom: 1px solid #666;
+  outline: none;
+  padding: 0.4rem;
+  width: 200px;
+}
+.form-action {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.form-action button {
+  border: 1px solid #666;
+  padding: 0.6rem 1.7rem;
+  border-radius: 10px;
+  background-color: transparent;
+  color: #666;
+  cursor: pointer;
+}
+
+.form-action button:hover {
+  border: 1px solid #8a2b06;
+  color: #8a2b06;
+}
+/* .form-control.invalid input {
+  border-bottom: 1px solid red;
+} */
+.text-error {
+  color: red;
+}

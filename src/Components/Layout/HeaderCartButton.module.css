@@ -1,0 +1,31 @@
+/** @format */
+button.header-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  background-color: #451704;
+  border: none;
+  color: white;
+  padding: 0.8rem 3rem;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.cart-text {
+  font-size: 1.1rem;
+  font-family: "Noto Sans JP", sans-serif;
+}
+.cart-amount {
+  background-color: #d2440c;
+  /* padding: 0.5rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+.badge {
+  width: 1.25rem;
+  height: 1.25rem;
+}

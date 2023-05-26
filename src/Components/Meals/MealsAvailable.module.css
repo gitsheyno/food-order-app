@@ -1,0 +1,30 @@
+/** @format */
+
+section.available-meals {
+  margin: 2rem auto;
+  text-align: center;
+  background-color: #fff;
+  color: black;
+  max-width: 65rem;
+  width: 90%;
+  border-radius: 14px;
+  box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
+  animation: meals-appear 1s ease-out forwards;
+}
+
+section.available-meals ul.meals {
+  padding: 2rem;
+  /* overflow: visible; */
+}
+
+@keyframes meals-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,64 @@
+/** @format */
+
+.meal-list {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #8a2b06;
+  padding-bottom: 15px;
+}
+
+.meal-list h2 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.left-coloumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 10rem;
+}
+
+.info .meal-price {
+  color: #8a2b06;
+  font-weight: 800;
+  font-size: 1.1rem;
+}
+
+.info .meal-amount {
+  border: 1px solid #777;
+  padding: 0.4rem 0.9rem;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 900;
+}
+
+.right-coloumn {
+  /* border: 1px solid red; */
+  display: flex;
+  /* flex-direction: column; */
+  gap: 5px;
+}
+
+.right-coloumn button {
+  padding: 0.5rem 1.2rem;
+  font-size: 1.3rem;
+  font-weight: 800;
+  border: 1px solid #8a2b06;
+  background-color: transparent;
+  color: #8a2b06;
+  border-radius: 5px;
+}
+
+.right-coloumn button:hover {
+  background-color: #8a2b06;
+  color: white;
+  cursor: pointer;
+}
